@@ -25,6 +25,10 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
+
+      .section{
+        background-image: url('/assets/bg.jpg');
+      }
     </style>
     <script>
       tailwind.config = {
@@ -101,7 +105,39 @@
             </ul>
           </div>
 
+          <!-- book consult -->
           <div class="navbar-end">
+            <!-- icons -->
+            <div class="flex gap-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 mr-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+            </div>
             <a class="btn rounded-full bg-bike-primary font-extrabold text-2xl"
               >Book Consult
               <svg
@@ -191,7 +227,7 @@
             <h3 class="font-extrabold text-4xl w-3/5">
               We design thoughtful, liveable spaces
             </h3>
-            <p class="font-medium text-xs w-11/12">
+            <p class="font-medium text-xs w-3/5">
               The barn house captivates with its blend of rustic charm and
               modern sophistication, featuring weathered wood, sleek metal
               accents.
@@ -199,24 +235,24 @@
 
             <div class="space-y-12">
               <!-- Commercial part -->
-              <div class="flex bg-white rounded-xl w-11/12">
-                <img src="./assets/commercial.png" alt="" />
+              <div class="flex bg-white rounded-xl w-11/12 p-5">
+                <img class="pr-5" src="./assets/commercial.png" alt="" />
                 <div>
                   <h5 class="font-bold">Commercial</h5>
                   <p>
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                    The barn house captivates with its blend <br />
+                    of rustic charm and modern.
                   </p>
                 </div>
               </div>
               <!-- Residencial part -->
-              <div class="flex bg-white rounded-xl w-11/12">
-                <img src="./assets/residential.png" alt="" />
+              <div class="flex bg-white rounded-xl w-11/12 p-5">
+                <img class="pr-5" src="./assets/residential.png" alt="" />
                 <div>
                   <h5 class="font-bold">Residencial</h5>
                   <p>
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                    The barn house captivates with its blend <br />
+                    of rustic charm and modern.
                   </p>
                 </div>
               </div>
@@ -256,7 +292,7 @@
             </p>
           </div>
           <!-- box part -->
-          <div class="flex gap-5 ml-24 justify-between">
+          <div class="flex gap-5 ml-24 mr-24 justify-between">
             <div class="bg-[#E7C1D3] rounded-xl space-y-5 h-56 w-72">
               <img class="ml-5 mt-5" src="./assets/concept.png" alt="" />
               <h5 class="font-extrabold ml-5">Concept</h5>
@@ -639,7 +675,7 @@
         </section>
 
         <!-- Form section -->
-        <section class="xl:w-full lg:w-full m-auto bg-white mt-32 p-32">
+        <section class="xl:w-full lg:w-full m-auto  mt-32 p-32" style="background-image: url('assets/bg.jpg');">
           <div class="text-center space-y-3 mb-10">
             <button class="btn btn-sm rounded-full bg-[#ABEF5F33]">
               <svg
@@ -657,9 +693,9 @@
                 />
               </svg>
 
-              Explore our Latest works
+              Lets Connect
             </button>
-            <h3 class="font-extrabold text-4xl">Our Latest Portfolio</h3>
+            <h3 class="font-extrabold text-4xl">Let’s Discuss Next Project</h3>
             <p class="font-medium text-xs">
               The barn house captivates with its blend of rustic charm and
               modern sophistication,<br />
@@ -771,22 +807,22 @@
             <a
               class="btn btn-ghost text-3xl text-black rounded-full font-extrabold bg-[#ABEF5F]"
             >
-              Rinterio
+              Book Consult
 
               <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-              />
-            </svg>
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
             </a>
           </div>
         </nav>
